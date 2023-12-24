@@ -1,0 +1,28 @@
+/* Custom CSS */
+.product-info h2 {
+  font-size: 2.5em;
+}
+
+.product-info p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.product-image img {
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Adding transition for smoother scaling */
+}
+
+.product-image img:hover {
+  transform: scale(1.1); /* Scaling up the image on hover */
+}
+
+.btn-dark {
+  background-color: #000;
+  border-color: #000;
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Adding transitions for button hover */
+}
+.btn-dark:hover {
+  background-color: #333;
+  border-color: #333;
+}
